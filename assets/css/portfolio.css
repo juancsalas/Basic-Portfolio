@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-image: url(file:///Users/juancarlossalas/Dropbox/Coding_Boot_Camp/Assignment_1/Basic_Portfolio/assets/images/qbkls.png);
+}
+
+.content {
+    height: 100%;
+    border-top: 2px solid #cccccc;
+    margin-bottom: 70px;
+}
+
+/* Below is all the styles for the header/links */
+
+.headerBackground {
+    background-color: white;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+.name, .links {
+    display: inline-block;
+}
+
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* CSS to make text change when mouse hovers over */
+.about:hover, .portfolio:hover, .contact:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+.portfolio, .contact {
+    border-left: 1px solid #cccccc;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 28px 40px 28px 40px;
+}
+
+.links {
+    position: relative;
+    float: right;
+    padding-top: 35px;
+}
+
+/* Bellow are the styles for the main portfolio box */
+
+.portfolioBox {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.portfolioHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 43px;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+/* Added hr to create the line between the title and main content in body */
+hr {
+    margin: 20px 30px 40px 30px;
+    border-color: solid #cccccc;
+} 
+
+/* CSS for the table */
+
+table{
+    padding-left: 28px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+td {
+    padding-bottom: 50px;
+    padding-right: 35px;
+}
+
+img {
+    width: 275px;
+    height: 207px;
+}
+
+.images {
+    position: relative;
+    text-align: center;
+    
+}
+
+.imageText {
+    background-color: #4aaaa5;
+    width: 89%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+/* CSS for the sticky footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+}

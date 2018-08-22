@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-image: url(file:///Users/juancarlossalas/Dropbox/Coding_Boot_Camp/Assignment_1/Basic_Portfolio/assets/images/qbkls.png);
+}
+
+.content {
+    
+    height: 100%;
+    border-top: 2px solid #cccccc;
+    margin-bottom: 70px;
+}
+
+/* Below is all the styles for the header/links */
+
+.headerBackground {
+    background-color: white;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+.name, .links {
+    display: inline-block;
+}
+
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* CSS to make text change when mouse hovers over */
+.about:hover, .portfolio:hover, .contact:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+.portfolio, .contact {
+    border-left: 1px solid #cccccc;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 28px 40px 28px 40px;
+}
+
+.links {
+    position: relative;
+    float: right;
+    padding-top: 35px;
+}
+
+/* Bellow are the styles for the main contact box */
+
+.contactBox {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    padding-bottom:25px;
+    margin-top:25px;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.contactHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Added hr to create the line between the title and main content in body */
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-color: solid #cccccc;
+} 
+
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 97.5%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}
+.inputEmail, .inputMessage {
+    padding-top: 10px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    position: relative;
+    background-color: #4aaaa5;
+    box-shadow: 0 5px #cccccc;
+    transform: translateY(5px);
+}
+
+/* CSS for the sticky footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+}

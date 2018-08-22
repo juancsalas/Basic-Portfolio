@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-image: url(file:///Users/juancarlossalas/Dropbox/Coding_Boot_Camp/Assignment_1/Basic_Portfolio/assets/images/qbkls.png);
+}
+
+.content {
+    
+    height: 100%;
+    border-top: 2px solid #cccccc;
+    margin-bottom: 70px;
+}
+
+/* Below is all the styles for the header/links */
+
+.headerBackground {
+    background-color: white;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    color: white;
+}
+
+.name, .links {
+    display: inline-block;
+}
+
+.about, .portfolio, .contact {
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* CSS to make text change when mouse hovers over */
+.about:hover, .portfolio:hover, .contact:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
+.portfolio, .contact {
+    border-left: 1px solid #cccccc;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 28px 40px 28px 40px;
+}
+
+.links {
+    position: relative;
+    float: right;
+    padding-top: 35px;
+}
+
+/* Main bio section starts here */
+
+.bio {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-top:25px;
+    padding-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.aboutMe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+/* Added hr to create the line between the title and main content in body */
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-color: solid #cccccc;
+}
+
+img {
+    height: 300px;
+    float: left;
+}
+
+img, p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.teams:link {
+    color: #777777;
+}
+
+.teams:visited {
+    color: #777777;
+}
+
+.teams:hover {
+    color: #4aaaa5;
+}
+
+.teams:active {
+    color: #4AC199;
+}
+
+/* CSS for the sticky footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+}
