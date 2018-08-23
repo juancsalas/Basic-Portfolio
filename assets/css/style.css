@@ -58,13 +58,12 @@ header {
 }
 
 /* Main section starts here */
-
 .aboutMeBox, .contactBox {
     width: 960px;
     margin: auto;
     background-color: white;
     margin-top:25px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     border: 1px solid #dddddd;
 }
 
@@ -111,7 +110,7 @@ header {
 
 /* CSS for About Me Secion */
 .self {
-    height: 300px;
+    height: 250px;
     float: left;
 }
 
