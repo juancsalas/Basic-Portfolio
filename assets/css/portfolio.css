@@ -78,31 +78,28 @@ header {
 /* Added hr to create the line between the title and main content in body */
 hr {
     margin: 20px 30px 40px 30px;
-    border-color: solid #cccccc;
+    border: 0px;
+    background-color: #cccccc;
+    height: 3px;
 } 
 
-/* CSS for the table */
-
+/* CSS for the Portfolio table */
 table{
     padding-left: 28px;
     padding-top: 30px;
     margin-left: 30px;
 }
 
-td {
-    padding-bottom: 50px;
-    padding-right: 35px;
-}
-
-img {
+.portfolioImages {
     width: 275px;
     height: 207px;
 }
 
-.images {
+.imagePlacing {
+    padding-bottom: 50px;
+    padding-right: 35px;
     position: relative;
     text-align: center;
-    
 }
 
 .imageText {

@@ -1,3 +1,4 @@
+/* CSS for background image and background header */
 body {
     margin: 0;
     background-image: url(../images/qbkls.png);
@@ -11,7 +12,6 @@ body {
 }
 
 /* Below is all the styles for the header/links */
-
 .headerBackground {
     background-color: white;
 }
@@ -57,9 +57,9 @@ header {
     padding-top: 35px;
 }
 
-/* Main bio section starts here */
+/* Main section starts here */
 
-.bio {
+.aboutMeBox, .contactBox {
     width: 960px;
     margin: auto;
     background-color: white;
@@ -68,33 +68,60 @@ header {
     border: 1px solid #dddddd;
 }
 
-.aboutMe {
+.portfolioBox {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.aboutMeHeader {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 5px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 30px;
 }
 
-/* Added hr to create the line between the title and main content in body */
-hr {
-    margin-left: 30px;
-    margin-right: 30px;
-    border-color: solid #cccccc;
+.portfolioHeader, .contactHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 43px;
+    padding-bottom: 8px;
+    font-size: 30px;
 }
 
-img {
+/* CSS for <hr> between title and main content in body */
+.aboutMeLine, .contactLine {
+    margin: 20px 30px 18px 30px;
+    border: 0px;
+    background-color: #cccccc;
+    height: 3px;
+}
+
+.portfolioLine {
+    margin: 20px 30px 40px 30px;
+    border: 0px;
+    background-color: #cccccc;
+    height: 3px;
+} 
+
+/* CSS for About Me Secion */
+.self {
     height: 300px;
     float: left;
 }
 
-img, p {
+.self, .aboutMeText {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
-p {
+.aboutMeText {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     line-height: 2;
@@ -115,6 +142,81 @@ p {
 
 .teams:active {
     color: #4AC199;
+}
+
+/* CSS for the Portfolio table */
+table{
+    padding-left: 28px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.portfolioImages {
+    width: 275px;
+    height: 207px;
+}
+
+.imagePlacing {
+    padding-bottom: 50px;
+    padding-right: 35px;
+    position: relative;
+    text-align: center;
+}
+
+.imageText {
+    background-color: #4aaaa5;
+    width: 89%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* CSS for the form */
+form {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 97.5%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+}
+.inputEmail, .inputMessage {
+    padding-top: 10px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-bottom:25px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    position: relative;
+    background-color: #4aaaa5;
+    box-shadow: 0 5px #cccccc;
+    transform: translateY(5px);
 }
 
 /* CSS for the sticky footer */
