@@ -144,10 +144,28 @@ header {
 }
 
 /* CSS for the Portfolio table */
-table{
+/* CSS for table to div convert */
+.gridContainer{
     padding-left: 28px;
-    padding-top: 30px;
-    margin-left: 30px;
+    margin-left: 2px;
+}
+
+.grid {
+	display: table-row-group;
+}
+
+.gridRow {
+    display: table-row;
+    vertical-align: inherit;
+}
+
+.divTableCell {
+	display: table-cell;
+    padding-bottom: 50px;
+    padding-right: 35px;
+    position: relative;
+    text-align: center;
+    
 }
 
 .portfolioImages {
@@ -160,11 +178,12 @@ table{
     padding-right: 35px;
     position: relative;
     text-align: center;
+    display: inline-block;
 }
 
 .imageText {
     background-color: #4aaaa5;
-    width: 89%;
+    width: 88.6%;
     padding-top: 19px;
     padding-bottom: 19px;
     bottom: 60px;
@@ -228,3 +247,5 @@ button:active {
     height: 60px;
     border-top: 8px solid #4aaaa5;
 }
+
+
