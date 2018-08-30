@@ -33,7 +33,7 @@ header {
     font-size: 18px;
 }
 
-/* CSS to make text change when mouse hovers over */
+/* CSS to make text change when mouse hovers over on */
 .about:hover, .portfolio:hover, .contact:hover {
     color: #4aaaa5;
     text-decoration: underline;
@@ -208,6 +208,7 @@ input, textarea {
     border: 1px solid #cccccc;
     font-size: 14px;
 }
+
 .inputEmail, .inputMessage {
     padding-top: 10px;
 }
